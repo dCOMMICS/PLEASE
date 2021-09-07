@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(198, 243, 228);
+}
+h1{
+    color: black;
+    align-items: center;
+    font-size: 45px;
+    text-align: center;
+}
+table{
+    color: azure;
+}
+td{
+    color: black;
+}
+th{
+    color: red;
+}
+li{
+    color:rgb(12, 12, 12);
+    font-size: larger;
+    text-decoration: dotted;
+    font-weight: bolder;
+    align-items: center;
+  
+}

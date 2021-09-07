@@ -1,0 +1,23 @@
+body{
+    color: antiquewhite;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: aqua;
+    text-shadow: azure;
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: left;
+    color: antiquewhite;
+    text-shadow: azure;
+    font-size: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 25px;
+    color: #000000;
+}
