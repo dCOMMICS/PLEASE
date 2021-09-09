@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Nasa{
+    height: 100vh; width: 100%;
+    background-image: url(/img/48.jpg);
+    background-size: cover;
+   /* background-position: center; */
+}
+.logo{
+    color: green;
+    font-size: 35px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+   /* padding: 5px 10px; */
+}
+span{
+    color: white;
+  
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 30px;
+}
+ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: greenyellow;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.DAE{
+    background-color: green;
+   /* background-blend-mode: darken; */
+   color: white;
+   font-weight: bolder;
+   text-decoration: none;
+   border: 2px solid transparent;
+   border-radius: 10px;
+   padding: 5px 10px;
+   transition: transform 15s;
+}
+.DAE:hover{
+    transform: scale(2.1);
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+
+}
+h1{
+    color:black ;
+    margin: 20px 0 20px;
+    font-size: 70px;
+}
+h3{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+h4{
+    color: rgb(55, 163, 22);
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+.AD form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+
+}
+.AD form input:first-child{
+    width: 100px;
+    display: inline-block;
+    padding: 14px 130px /*14px 15px */;
+    border: 2px solid rgb(55,163,22);
+    border-radius: 20px;
+
+}
+.AD form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    background-color: rgb(55, 163, 22);
+    color: black;
+    top: 6px;
+    right: 6px;
+}
